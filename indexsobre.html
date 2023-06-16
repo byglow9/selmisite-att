@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE 2 SPRINT</title>
+    <link rel="shortcut icon" href="logonovo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/stylesobre.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><img src="img/logonovo.png" alt=""></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a class="nav-links" href="index.html">Inicio</a></li>
+                <li><a class="nav-links" href="indexsobre.html">Sobre</a></li>
+                <li><a class="nav-links" href="">Produtos</a></li>
+                
+
+                <li><a href="#popup" class="trigger">Login </a>
+                    <div id="popup" class="overlay">
+                        <div class="wrapper">
+                            <a  href="#" class="close">&times; </a>
+                                <div class="column details">
+
+                                    
+                                        <div class="signin">
+                                            <h1>Entrar</h1>
+                                        
+                                            <input type="email" placeholder="ensira seu email">
+                                            <input type="password" placeholder="ensira sua senha">
+                                       
+                                            <a href="">Esqueceu sua Senha ?</a>
+                                            <button class="form-submit"> Login</button>
+                                            <span>Não tem uma conta?<button id="signup">Crie sua conta agora!</button></span>
+                                        </div>
+                                
+                                        <div class="signup">
+                                            <h1>Cadastrar</h1>
+                                        
+                                            <input type="name" placeholder="Nome completo">
+                                            <input type="email" placeholder="Email">
+                                            <input type="password" placeholder="Senha">
+                                            <input type="cep" placeholder="CEP">
+                                        
+                                            <button class="form-submit">  Cadastrar </button>
+                                            <span>Você já tem uma conta?<button id="signin">Entre</button></span>
+                                        </div>
+
+                                </div>
+
+                                    <div class="column content">
+                                        <div class="signin">
+                                            <h1>Bem Vindo!</h1>
+                                            <p>por favor entra com suas credencias de acesso</p>
+                                        </div>
+
+                                        <div class="signup">
+                                            <h1>Olá Amigo!</h1>
+                                            <p>coloque seus detalhes pessoais</p>
+                                        </div>    
+                                    </div>
+                        </div>
+                    </div>
+
+                </li>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"> </script>
+
+                    <script>
+                        $('.signup').hide();
+
+                        $('#signin, #signup').on(
+                            'click',
+                            function(){
+                                $('.signin, .signup').toggle()
+                            }
+                        );
+                    </script>
+                
+            </ul>
+        </nav>
+    </header>  
+
+    <main>   
+    </main> 
+    
+    <section>
+
+        <div class="row">
+            <div class="imgWrapper">
+                <img src="img/nossahistoria2.png" alt="">
+            </div>
+            <div class="contentWrapper">
+                <div class="content-wrapper">
+                    <span class="textoWrapper" >
+                        <span></span> Nossa Historia
+                    </span>
+                    <h2>Conheça mais sobre nós</h2>
+                    <p>São mais de 128 anos de tradição, conquistando a preferência do consumidor com diversos tipos de massas,farinhas especiais, biscoitos, bolos, bolinhos, mistura para bolos, além de azeite, queijo ralado e café -  por meio das marcas Renata e Galo.
+
+                        A primeira fábrica.
+                    Em 16 de agosto de 1887, com apenas 25 anos, Adolpho Selmi, imigrante italiano, desembarcou no Porto de Santos (SP) e, com o sonho de difundir a tradição gastronômica de seu país, fundou uma pequena fábrica de macarrão em Campinas, cidade que escolheu. Assim foi criada a Fábrica de Massas Adolpho Selmi, com produção diária que cabia em uma cesta, comercializada pelas ruas da cidade, tendo como principais clientes seus conterrâneos, que se deliciavam com as massas frescas que lembravam aromas e sabores da terra-mãe.</p>
+                    
+
+                </div>
+            </div>
+        </div>
+            
+        <div class="containerabout">
+            <div class="contentabout">
+                
+                <h2>Jornada Selmi</h2>
+                <p>No fim do século XIX, Adolpho Selmi contraiu sociedade com seu conterrâneo Hugo Gallo, nome que deu origem à marca de macarrão. A princípio, o preparo das massas era feito na prensa manual. Após essa etapa, as massas passaram a ser produzidas por marombas e também por tração animal. Anos depois, a produção era feita por meio de uma grande caldeira que alimentava um locomóvel (máquina a vapor usada para movimentar cargas pesadas).
+
+                E, por fim, a eletricidade impulsionou a produção, que ganhou força com o uso de masseiras elétricas importadas da Itália.</p>
+                <button class="cta-button"> CONHEÇA</button>
+
+            </div>
+            <div class="hero-img">
+                <img src="img/nossahistoria6.png" alt="">
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <H1 class="text1">  GALERIA: <span class="nossah"> Nossa historia</span> </H1> 
+            <div class="galeria">
+
+                <figure class="ft1">
+                    <img src="img/selmi-historia-decada-1880-1.webp" class="galeria_img" >
+                </figure>
+
+                <figure class="ft2">
+                    <img src="img/nossahistoria2.png" class="galeria_img" >
+                </figure>
+
+                <figure class="ft3">
+                    <img src="img/nossahistoria3.png" class="galeria_img">
+                </figure>
+
+                <figure class="ft4">
+                    <img src="img/nossahistoria4.png"  class="galeria_img">
+                </figure>
+
+                <figure class="ft5">
+                    <img src="img/nossahistoria5.png"  class="galeria_img">
+                </figure>
+
+                <figure class="ft6">
+                    <img src="img/nossahistoria6.png"  class="galeria_img">
+                </figure>
+    </section>
+
+    
+
+    <script src="mobile-navbar.js"></script>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <a class="logoBAIXO" href="/"><img src="img/logoart.png" alt=""></a>
+                <p></p>
+            
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/gruposelmi/" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsaap">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    
+                </div>
+            </div>
+          
+
+            <ul class="footer-list">
+                <li>
+                    <h3> A Selmi </h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Missão, Visão e Valores</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Nossa História</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Processo de Produção</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/place/Pastifício+Selmi+S%2FA/@-22.8041644,-47.2382489,17z/data=!3m1!4b1!4m6!3m5!1s0x94c897e28a007cd5:0xf08678b7f4334467!8m2!3d-22.8041644!4d-47.2356686!16s%2Fg%2F1tdhg35_" class="footer-link"> Local</a>
+                </li>
+               
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3> Marcas e Produtos </h3>
+                </li>
+                <li>
+                    <a href="https://renata.com.br" class="footer-link">Renata</a>
+                </li>
+                <li>
+                    <a href="https://receitasgalo.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=consideracao-trafego-max-conversao-google-search-galo-brand&utm_term=keywords-brand-macarrao&gad=1&gclid=CjwKCAjwge2iBhBBEiwAfXDBR2i-CrRmr3Wgv3nyHiTAbkbtDZ3X2nsaz87ioC6jNII-kDHAPvRE_RoCtPUQAvD_BwE" class="footer-link">Galo</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Todos os produtos</a>
+                </li>
+            </ul>
+            
+            <div id="footer_subscribe">
+                <h3>Notficações</h3>
+
+                <p>
+                    Ensira seu email para receber novas notficações do site
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div> 
+
+        <div id="footer_copyright">
+            &#169
+            2023 all right reserved
+        </div>
+    </footer>
+</body>
+
+
+</html>
+
+
+
